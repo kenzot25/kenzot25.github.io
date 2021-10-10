@@ -2,7 +2,7 @@ const textConfig = {
     text1: "He luu em!!",
     text2: "Anh có điều này muốn hỏi em, nhớ phải trả lời thật lòng nhaaa.",
     text3: "Em yêu toii có phải không nào ._.",
-    text4: "Nếu em ko trả lời mà thoát ra thì em là con cún :))) :v",
+    text4: "Nếu em ko trả lời mà thoát ra thì em là con cún :)))",
     text5: "Anh mơ à???",
     text6: "Yêu ơi là yêu <3",
     text7: "lí do gì em thích anh nhở?? :vvvv",
