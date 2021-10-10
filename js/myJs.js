@@ -116,7 +116,7 @@ $(document).ready(function() {
             width: 900,
             padding: "3em",
             html: "<input type='text' class='form-control' id='txtReason'  placeholder='Nhập câu trả lời ở đây...'>",
-            background: '#ffcdb2 url("https://i.gifer.com/3sjq.gif")',
+            background: '#ffcdb2 url("https://i.gifer.com/3sjq.gif") fixed',
             backdrop: `
                     rgba(0,0,123,0.4)
                     url("https://i.gifer.com/4AIB.gif")
