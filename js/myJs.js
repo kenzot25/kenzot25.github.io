@@ -4,6 +4,7 @@ const textConfig = {
     text3: "Em yêu toii có phải không nào ._.",
     text4: "Nếu em ko trả lời mà thoát ra thì em là con cún :)))",
     text5: "Anh mơ à???",
+
     text6: "Yêu ơi là yêu <3",
     text7: "lí do gì em thích anh nhở?? :vvvv",
     text8: "Gửi cho anh <3",
@@ -27,6 +28,7 @@ $(document).ready(function() {
     $("#text3").html(textConfig.text3);
     $("#text4").html(textConfig.text4);
     $("#no").html(textConfig.text5);
+
     $("#yes").html(textConfig.text6);
 
     function firstQuestion() {
@@ -113,14 +115,15 @@ $(document).ready(function() {
             html: true,
             width: 900,
             padding: "3em",
-            html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
-            background: '#fff url("img/iput-bg.jpg")',
+            html: "<input type='text' class='form-control' id='txtReason'  placeholder='Nhập câu trả lời ở đây...'>",
+            background: '#ffcdb2 url("https://i.gifer.com/3sjq.gif")',
             backdrop: `
                     rgba(0,0,123,0.4)
-                    url("img/giphy2.gif")
-                    left top
+                    url("https://i.gifer.com/4AIB.gif")
+                    center top
                     no-repeat
                   `,
+
             showCancelButton: false,
             confirmButtonColor: "#3085d6",
             cancelButtonColor: "#d33",
@@ -137,7 +140,7 @@ $(document).ready(function() {
                     text: textConfig.text11,
                     confirmButtonColor: "#83d0c9",
                     onClose: () => {
-                        window.location = "https://www.messenger.com/t/100008923985702";
+                        window.location = "https://www.facebook.com/messages/t/100008923985702";
                     },
                 });
             }
